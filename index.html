@@ -15,6 +15,13 @@
     </header>
 
     <main class="container">
+        <h2 class="section-title">自己紹介</h2>
+        <p class="bio">
+            ゲームプログラマーを目指し、Unity/C++を中心にゲーム制作に取り組んでいます。<br>
+            私が制作において大切にしているのは、どうすればプレイヤーにとってより面白い体験になるのかを考え、それを実際のゲームとして形にすることです。
+            これまで、音声認識とモーションキャプチャを組み合わせたゲームや、DirectX11を用いた3Dゲーム、AR・ネットワークを活用したゲームなど、幅広い技術領域に挑戦してきました。<br>
+            今後も技術への理解を深めるとともに、ゲームの面白さを分析する視点を磨き、より面白い体験の実現に貢献できるプログラマーを目指しています。
+        </p>
         <h2 class="section-title">制作物</h2>
 
         <section class="project-card">
@@ -66,6 +73,29 @@
 
         <section class="project-card">
             <div class="video-container">
+                <video src="videos/dxemblem.webm" controls muted playsinline></video>
+            </div>
+            <div class="project-info">
+                <h3>DirectEmblem</h3>
+                <p>
+                    ・DirectX11に初挑戦し、ウィンドウの作成から行った<br>
+                    ・移動可能範囲をダイクストラで算出しつつ、敵AIはマンハッタン距離を優先するように実装<br>
+                    ・敵との戦闘は命中率だけで計算し、命中すれば即座に除去されるチェスのようなルールにした
+                </p>
+                <p>
+                    開発環境: C++ / WindowsAPI / DirectX11<br>
+                    開発人数: 個人開発<br>
+                    開発期間: 1か月 (2025/10~2025/11)
+                </p>
+                <div class="links">
+                    <a href="https://github.com/MoZ0311/DirectEmblem.git" class="btn">GitHub リポジトリ</a>
+                    <a href="files/DX_Emblem.zip" class="btn download" download>Windows 版ダウンロード</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-card">
+            <div class="video-container">
                 <video src="videos/hackandslash.webm" controls muted playsinline></video>
             </div>
             <div class="project-info">
@@ -106,29 +136,6 @@
                 </p>
                 <div class="links">
                     <a href="https://github.com/MoZ0311/MobileTD.git" class="btn">GitHub リポジトリ</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="project-card">
-            <div class="video-container">
-                <video src="videos/dxemblem.webm" controls muted playsinline></video>
-            </div>
-            <div class="project-info">
-                <h3>DirectEmblem</h3>
-                <p>
-                    ・DirectX11に初挑戦し、ウィンドウの作成から行った<br>
-                    ・移動可能範囲をダイクストラで算出しつつ、敵AIはマンハッタン距離を優先するように実装<br>
-                    ・敵との戦闘は命中率だけで計算し、命中すれば即座に除去されるチェスのようなルールにした
-                </p>
-                <p>
-                    開発環境: C++ / WindowsAPI / DirectX11<br>
-                    開発人数: 個人開発<br>
-                    開発期間: 1か月 (2025/10~2025/11)
-                </p>
-                <div class="links">
-                    <a href="https://github.com/MoZ0311/DirectEmblem.git" class="btn">GitHub リポジトリ</a>
-                    <a href="files/DX_Emblem.zip" class="btn download" download>Windows 版ダウンロード</a>
                 </div>
             </div>
         </section>

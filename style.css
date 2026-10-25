@@ -76,3 +76,7 @@ body {
 .btn.download:hover {
     background-color: #219150;
 }
+
+.line-dot {
+    text-decoration: underline dotted black
+}
